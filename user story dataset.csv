@@ -1,160 +1,160 @@
-User Story,Teammembers,Size,Complexity,Priority,Noftasks,PL,developmenttype,externalhardware,relatedtechnologies,dbms,Requirement Volatility,Effort 
-"As a Voter, I want to cast my vote online, so that I can participate in elections.",4,4,3,1,5,Java,Mobile,0,Blockchain,SQL,Medium,5
-"As an Admin, I want to manage candidate profiles, so that I can organize the election.",3,3,2,2,4,Java,Mobile,0,Blockchain,SQL,Low,3
-"As a Moderator, I want to verify voter identities, so that I can ensure fair elections.",3,2,4,3,3,Java,Mobile,0,Computer Vision,SQL,High,5
-"As a Candidate, I want to view election results, so that I can see how I performed.",2,1,1,4,2,Java,Mobile,0,Blockchain,SQL,Low,1
-"As a Donor, I want to browse fundraising campaigns, so that I can contribute to causes I care about.",3,3,2,1,4,Python,Web,0,Computer Vision,Firebase,Low,3
-"As a Campaign Creator, I want to create a fundraising campaign, so that I can raise funds for my project.",3,4,3,2,5,Python,Web,0,None,Firebase,Medium,3
-"As an Admin, I want to manage campaigns, so that I can ensure compliance with platform rules.",3,3,4,3,4,Python,Web,0,None,Firebase,High,5
-"As a Donor, I want to track my donations, so that I can see how my contributions are being used.",3,2,2,4,3,Python,Web,0,None,Firebase,Low,2
-"As a funding body, I want to be reassured that researchers I fund have robust archival plans for their data, so that I can be sure that funding them is a worthwhile investment.",3,3,3,1,4,Python,Web,0,None,SQL,Medium,3
-"As a data reuser, I want to view an example citation for a dataset, so that I can reference it correctly.",2,2,2,2,3,Python,Web,0,None,SQL,Low,2
-"As a collection curator, I want to set a date after which data will expire and be deleted or hidden, so that outdated or sensitive data is properly managed.",3,3,4,3,4,Python,Web,0,None,SQL,Medium,5
-"As a repository manager, I want to track who is financially responsible for each item in the repository, so that billing and ownership accountability can be maintained.",3,4,3,4,5,Python,Web,0,None,SQL,Medium,5
-"As a Digital Records Archivist, I want to batch ingest ETDs received from ProQuest, so that large-scale electronic theses and dissertations can be efficiently added to the repository.",4,5,5,5,6,Python,Web,0,None,SQL,High,13
-"As a collection curator, I want to move items from one collection to another, so that items can be reassigned to the most appropriate collection.",3,3,3,6,4,Python,Web,0,None,SQL,Low,3
-"As a repository admin, I want to expose repository contents via OAI-PMH, so that metadata can be harvested by external services.",3,4,4,7,5,Python,Web,0,None,SQL,Medium,8
-"As a depositor, I want to get feedback post-ingest if files do not conform to format specifications, so that I can correct any issues before finalizing the submission.",3,3,3,8,4,Python,Web,0,None,SQL,Medium,3
-"As a faculty member, I want to manage members of my classes in the repository dashboard, so that I can grant submission permissions and track student submissions easily.",3,4,3,9,5,Python,Web,0,None,SQL,Medium,3
-"As a Digital Records Archivist, I want to edit the length of embargoes, so that restricted items can be made available at the appropriate time.",3,3,4,10,4,Python,Web,0,None,SQL,Low,5
-"As a collection curator, I want to restrict access to my collection or items to Duke IP addresses, so that only authorized users can access certain materials.",3,3,4,11,4,Python,Web,0,None,SQL,Low,5
-"As a superuser, I want to enter and exit the superuser scope, so that I can perform administrative actions without being permanently in an elevated role.",2,2,2,12,3,Python,Web,0,None,SQL,Low,2
-"As a Cornell faculty member, I want to upload data to the repository and associate it with a publication, so that I receive attribution for my data as well as my publications.",3,4,3,13,5,Python,Web,0,None,SQL,Medium,3
-"As a developer, I want to have the subdomain beta.nsf.gov set up, so that I can deploy a beta site to it.",2,3,3,1,3,Python,Web,0,None,Firebase,Low,3
-"As a user researcher, I want to test the user research plan, so that I ensure the in-person interviews are effective and capturing the right information.",2,2,2,2,3,Python,Web,0,None,Firebase,Medium,2
-"As a designer, I want to create a mood board to aid with visual design concepts for the nsf.gov website, so that we can discuss different design ideas with stakeholders.",2,2,1,3,2,Python,Web,0,None,Firebase,Medium,1
-"As a team member, I want to understand how work moves between UX/content, visual design, and front-end development for a sprint cycle, so that we can plan our workflow efficiently.",3,3,2,4,4,Python,Web,0,None,Firebase,Low,3
-"As an NSF employee, I want to narrow down CMS options and identify key considerations, so that we can make an informed decision on a content management system.",3,4,3,5,5,Python,Web,0,None,Firebase,High,5
-"As a workshop attendee, I want to see a summary of major findings from the event, so that I can understand the key takeaways and next steps.",3,2,2,6,3,Python,Web,0,None,Firebase,Low,2
-"As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is the right fit for my needs.",3,3,3,7,4,Python,Web,0,None,Firebase,Medium,3
-"As a site administrator, I want to understand how other similar organizations handle content, so that I can make informed decisions about what works well.",3,4,3,8,5,Python,Web,0,None,Firebase,High,5
-"As a Public User, I want to search for information, so that I can obtain publicly available details concerning properties, county services, and processes.",3,3,2,1,4,HTML,Web,0,None,SQL,Medium,3
-"As an Applicant, I want to check the status of a transaction, so that I can understand where my service request is in the process, including fees, plan reviews, permits, or inspections.",3,3,3,2,4,HTML,Web,0,None,SQL,Medium,3
-"As a Staff Member, I want to apply a hold on an application, so that I can prevent progression through the workflow until the issue is resolved.",3,2,3,3,3,Python,Web,0,None,SQL,Low,2
-"As a Planning Staff Member, I want to generate planning-related reports, so that I can access, analyze, and export the needed information in my requested format.",3,4,4,4,5,Python,Web,0,None,SQL,High,8
-"As a Zoning Staff Member, I want to issue zoning-related permits, so that I can satisfy an applicant's request for a service that complies with the Zoning Ordinance.",3,3,3,5,4,Python,Web,0,None,SQL,Medium,3
-"As a Plan Review Staff Member, I want to track the completion of required plan reviews, so that I can ensure all tasks are completed, results are sent to the applicant, and downstream steps are initiated.",3,4,4,6,5,Python,Web,0,None,SQL,Medium,8
-"As a Development Staff Member, I want to issue a development-related permit, so that I can grant the applicant permission to begin work.",3,3,3,7,4,Python,Web,0,None,SQL,Medium,3
-"As an Inspection Supervisor, I want to manage inspector workloads, so that I can meet service level and quality requirements.",3,4,4,8,5,Python,Web,0,None,SQL,Medium,8
-"As an Enforcement Staff Member, I want to issue a notice of violation, so that I can provide formal communication to the responsible party.",3,3,3,9,4,Python,Web,0,None,SQL,Low,3
-"As a Technical Staff Member, I want to update the GIS property management system, so that I can ensure accurate parcel data is maintained after property splits or merges.",4,5,5,10,6,Python,Web,0,location,SQL,Medium,13
-"As a site member, I want to describe myself on my own page in a semi-structured way, so that others can learn about me.",2,2,2,1,3,Python,Web,0,None,SQL,Low,2
-"As a site member, I want to fill out an application to become a Certified Scrum Practitioner, so that I can earn that designation.",3,3,3,2,4,Python,Web,0,None,SQL,Low,3
-"As a Trainer, I want to include additional details in my profile page about me, so that others can learn about me and decide if I am the right trainer for them.",2,2,2,3,3,Python,Web,0,None,SQL,Medium,2
-"As a trainer, I want to list my upcoming classes in my profile and include a link to a detailed page about each, so that prospective attendees can find my courses.",3,3,3,4,4,Python,Web,0,None,SQL,Medium,3
-"As a site member, I want to search for profiles based on a few fields, so that I can find others I might want to connect with.",3,3,3,5,4,Python,Web,0,None,SQL,Medium,3
-"As a site member, I want to mark my email address as private even if the rest of my profile is not, so that no one can contact me without my permission.",2,2,2,6,3,Python,Web,0,None,SQL,Low,2
-"As a site editor, I want to set the following dates on a news item: Start Publishing Date, Old News Date, Stop Publishing Date, so that articles are published on and through appropriate dates.",3,3,4,7,4,Python,Web,0,None,SQL,Low,5
-"As a trainer, I want to create a new course or event, so that site visitors can see it and register.",3,4,4,8,5,Python,Web,0,None,SQL,Medium,8
-"As a recruiter, I want to post a help-wanted ad, so that I can attract candidates.",3,3,3,9,4,Python,Web,0,None,SQL,Low,3
-"As a site member, I want to have full access to all articles, so that there is a benefit to being a member.",2,2,2,10,3,Python,Web,0,None,SQL,Low,2
-"As a site visitor, I want to see a trainer's rating, so that I can choose a course from an appropriate trainer.",3,3,3,11,4,Python,Web,0,None,SQL,Medium,3
-"As a member, I want to receive a reminder and a link, so that I can renew my membership on time.",2,2,2,12,3,Python,Web,0,None,SQL,Low,2
-"As a Publisher, I want to publish a dataset, so that I can share it publicly with everyone.",2,2,2,1,2,Python,Web,0,None,None,Low,2
-"As a Publisher, I want to import my data package into the registry, so that my data has a permanent online home.",3,3,3,2,3,C#,Web,0,Blockchain,SQL,Medium,5
-"As a Consumer, I want to know that the data I am downloading is reliable, so that I don't have to check it manually.",2,2,1,3,2,Python,Web,0,None,None,Medium,1
-"As a Consumer, I want to search for data packages based on descriptions, so that I can find relevant ones.",3,4,4,4,4,C#,Web,0,AI,SQL,High,8
-"As a Data Analyst, I want to update previously downloaded data packages, so that I can work with recent data.",2,3,3,5,3,Python,Web,0,AI,SQL,Medium,5
-"As a Developer, I want to use a data package as a Node.js library, so that I can integrate it with my project.",2,3,3,6,3,Javascript,Web,0,Blockchain,None,Medium,5
-"As a Data Publishing User, I want to edit a dataset I have published, so that I can correct or enhance data.",2,1,1,7,1,Python,Web,0,None,None,Low,1
-"As a Platform Administrator, I want to view all datasets published by users, so that I can manage them.",3,4,3,8,4,C#,Web,0,Blockchain,SQL,Low,5
-"As a Data Consuming User, I want to filter, sort, and aggregate data by dimensions, so that I can analyze trends.",3,5,5,9,5,Python,Web,0,AI,SQL,High,13
-"As an API User, I want to dynamically request polygons based on queries, so that I can provide matching maps.",2,3,3,10,3,Python,Web,0,Location,None,Medium,5
-"As a Data Publishing User, I want to import data from Google Sheets, so that I avoid manual conversions.",2,3,3,11,3,Python,Web,0,None,None,Medium,3
-"As an API User, I want to normalize measures by GDP, so that I can analyze economic context.",2,2,2,12,2,Python,Web,0,AI,SQL,High,5
-"As a Data Consuming User, I want to download an image of a view state, so that I can use it offline.",2,2,2,13,2,Python,Web,0,Computer Vision,None,Low,3
-"As a Data Publishing User, I want to validate my CSV file before publishing, so that I can fix issues early.",2,2,2,14,2,Python,Web,0,None,None,Low,2
-"As a Visitor, I want to sign up via GitHub or Google, so that I avoid manual registration.",2,3,3,1,3,Python,Web,0,Blockchain,SQL,Low,5
-"As an Admin, I want to invite someone to join the platform, so that they can contribute.",2,3,2,2,2,Python,Web,0,None,None,Low,2
-"As an Owner, I want to remove a user from my publisher, so that they lose edit permissions.",2,2,2,3,3,Python,Web,0,None,None,Low,2
-"As an Application Administrator, I want to reset a user's password, so that they regain account access.",2,2,2,4,2,Python,Web,0,None,None,Low,2
-"As a User, I want to authenticate using LDAP, so that I log in with my org credentials.",2,3,3,5,3,Python,Web,0,None,SQL,Medium,3
-"As an Authenticated User, I want to access contextual help links, so that I find guidance quickly.",2,2,2,6,2,Python,Web,0,Gamification,None,Low,3
-"As an Admin, I want to see platform usage metrics (users, API calls, downloads), so that I monitor performance.",3,4,3,7,4,Python,Web,0,AI,SQL,Medium,5
-"As a Repository Manager, I want to manage archival descriptions, so that records stay organized.",2,3,3,1,3,Python,Database,0,None,None,Medium,3
-"As an Archivist, I want to import Accessions data in CSV, so that I add bulk records efficiently.",2,3,2,2,2,Python,Database,0,None,None,Low,2
-"As an Archivist, I want to edit Rights Management statements, so that I track intellectual property.",2,3,3,3,3,Python,Database,0,Blockchain,SQL,Medium,5
-"As a Systems Administrator, I want to control the demo database location, so that I ensure backups.",2,3,3,4,3,Python,Database,0,None,SQL,Low,3
-"As an Archivist, I want to assign location info to containers, so that I track physical storage.",2,1,2,5,2,Python,Database,0,Location,None,Low,2
-"As a Digital Records Archivist, I want to batch ingest ETDs from ProQuest, so that I add theses at scale.",3,4,4,6,4,Python,Database,0,AI,SQL,High,8
-"As a Collection Curator, I want to move items between collections, so that they are reassigned properly.",2,3,3,7,3,Python,Database,0,None,None,Low,3
-"As a Repository Admin, I want to expose contents via OAI-PMH, so that metadata is harvestable.",2,3,3,8,3,Python,Database,0,Blockchain,SQL,Medium,3
-"As a Depositor, I want feedback on non-compliant files post-ingest, so that I can fix issues.",2,3,3,9,3,Python,Database,0,None,None,Medium,3
-"As a Faculty Member, I want to manage class members in the repository, so that I control submissions.",2,2,2,10,2,Python,Database,0,None,SQL,Low,2
-"As an Anonymous User, I want to sign up for the BADCamp newsletter, so that I stay updated.",2,3,2,1,2,C#,Desktop,0,Gamification,None,Low,3
-"As a Sponsor, I want to link BADCamp attendees to my page, so that I showcase attendance.",2,2,1,2,1,C#,Desktop,0,Gamification,None,Low,1
-"As an Administrator, I want to assign sponsors to events, so that they are featured on sponsor pages.",2,3,3,3,3,C#,Desktop,0,Blockchain,None,Low,5
-"As a Summit Coordinator, I want to list sponsors for my summit, so that they feel rewarded.",2,2,1,4,2,C#,Desktop,0,Gamification,None,Low,2
-"As an Authenticated User, I want to edit my session, so that I correct mistakes.",2,3,2,5,1,C#,Desktop,0,Gamification,None,Low,2
-"As an OlderPerson, I want a wake-up call from ALFRED checking if I'm okay, so that I feel safe.",2,3,3,1,3,Swift,Mobile,1,Voice Recognition,Firebase,Medium,8
-"As an OlderPerson, I want to use ALFRED for navigation, so that I move independently.",2,4,5,2,4,Swift,Mobile,1,Location,Firebase,High,13
-"As an OlderPerson, I want medicine reminders from ALFRED, so that I don't forget doses.",2,3,3,3,3,Swift,Mobile,1,Voice Recognition,Firebase,Medium,8
-"As an OlderPerson, I want ALFRED to detect falls and send alerts, so that I get help fast.",3,5,5,4,5,Swift,Mobile,1,Computer Vision,Firebase,High,21
-"As a Medical Caregiver, I want to check if patients took medicine, so that I ensure adherence.",2,3,3,5,3,Python,Web,0,AI,SQL,Medium,3
-"As a Researcher, I want to view a finding aid for a collection, so that I understand its contents.",2,3,3,1,3,Python,Web,0,None,None,Low,3
-"As a Researcher, I want updates when new works are published, so that I stay informed.",2,2,2,2,3,Python,Web,0,None,SQL,Low,2
-"As a Researcher, I want to specify data storage locations, so that it remains accessible long-term.",2,3,2,3,3,Python,Web,0,None,None,Medium,2
-"As a PI, I want to record Data Management Plan details, so that Ethics Committees can review compliance.",2,3,2,4,2,Python,Web,0,None,SQL,Medium,2
-"As a Camp Administrator, I want to schedule camper activities, so that workers track locations.",2,3,2,5,4,Python,Web,0,None,None,Medium,2
-"As a Parent, I want to track my child's camp schedule, so that I have peace of mind.",2,2,3,1,2,Python,Web,0,Location,Firebase,Medium,3
-"As a Camp Worker, I want to report supply shortages, so that managers can restock.",2,4,2,2,2,Python,Web,0,None,None,Low,3
-"As a Camp Administrator, I want to give bi-weekly feedback to parents, so that they know child progress.",2,2,1,3,2,Python,Web,0,None,None,Medium,1
-"As a User, I want to find nearby recycling facilities by zip code, so that I dispose waste responsibly.",2,3,3,1,4,Python,Web,0,Location,None,Low,3
-"As a User, I want to see a map of public recycling bins, so that I locate them easily.",2,5,3,2,5,Python,Web,0,Location,None,Medium,5
-"As a User, I want to upload my weekly schedule, so that I get recycling center recommendations.",2,2,1,3,1,Python,Web,0,None,None,High,1
-"As a User, I want to browse eco-friendly facilities, so that I ensure responsible waste disposal.",2,3,2,4,3,Python,Web,0,None,None,Low,2
-"As a Data Analyst, I want to visualize data trends over time...",4,2,1,1,3,C#,Desktop,0,None,Firebase,Medium,1
-"As a Data Scientist, I want to integrate machine learning models...",4,4,2,2,2,C#,Desktop,1,AI,None,High,3
-"As a Data Engineer, I want to automate data pipeline workflows...",4,4,2,3,3,C#,Desktop,0,None,SQL,Medium,3
-"As a Customer, I want to filter products by price range...",2,3,4,1,4,Java,Mobile,1,Blockchain,Firebase,Medium,8
-"As a Customer, I want to add items to my wishlist...",3,1,1,2,5,Java,Mobile,0,AI,Firebase,Low,2
-"As a Seller, I want to upload product images and descriptions...",4,1,2,3,3,Java,Mobile,0,None,None,Low,2
-"As an Admin, I want to manage product categories...",3,1,3,4,3,Java,Mobile,1,AI,None,Low,5
-"As a Student, I want to enroll in courses...",4,1,2,1,3,Java,Mobile,1,AI,None,Low,3
-"As a Student, I want to track my progress in a course...",2,2,3,2,5,Java,Mobile,0,None,SQL,Low,3
-"As an Instructor, I want to upload course materials...",4,4,3,3,3,Java,Mobile,0,None,SQL,Medium,3
-"As an Admin, I want to manage user roles and permissions...",3,4,3,4,5,Java,Mobile,0,AI,None,Medium,8
-"As a Doctor, I want to view patient medical history...",2,4,3,1,2,Java,Mobile,1,None,None,Low,5
-"As a Patient, I want to book appointments online...",2,4,1,2,3,Java,Mobile,1,AI,SQL,Low,3
-"As a Nurse, I want to update patient records...",3,3,3,3,3,Java,Mobile,0,Blockchain,Firebase,Low,5
-"As an Admin, I want to generate reports on hospital performance...",2,4,1,4,3,Java,Mobile,1,Computer Vision,SQL,High,5
-"As a Traveler, I want to search for flights and hotels...",2,3,2,1,4,C#,Web,1,Blockchain,SQL,Medium,5
-"As a Traveler, I want to read reviews of destinations...",2,1,4,2,3,C#,Web,0,AI,SQL,Low,5
-"As a Travel Agent, I want to create custom travel packages...",3,4,3,3,3,C#,Web,1,Computer Vision,None,High,8
-"As an Admin, I want to manage destination listings...",3,2,4,4,5,C#,Web,1,None,Firebase,Medium,5
-"As an Event Organizer, I want to create event pages...",2,2,3,1,4,Java,Mobile,0,None,Firebase,Medium,3
-"As an Attendee, I want to register for events...",3,2,3,2,4,Java,Mobile,1,None,None,Low,3
-"As an Admin, I want to manage event categories...",3,2,1,3,5,Java,Mobile,1,AI,SQL,Low,3
-"As a Speaker, I want to upload my presentation materials...",2,1,3,4,4,Java,Mobile,0,None,SQL,Low,3
-"As a Customer, I want to browse restaurants and menus...",3,2,2,1,3,C#,Web,0,Blockchain,Firebase,Low,3
-"As a Restaurant Owner, I want to update my menu...",4,1,3,2,5,C#,Web,0,Blockchain,Firebase,Medium,5
-"As a Delivery Driver, I want to view delivery routes...",2,3,4,3,2,C#,Web,0,None,SQL,Medium,5
-"As an Admin, I want to track order statuses...",2,3,3,4,3,C#,Web,0,AI,SQL,Low,5
-"As a User, I want to log my daily workouts...",3,4,3,1,3,Java,Mobile,1,Blockchain,SQL,Low,8
-"As a User, I want to set fitness goals...",3,2,2,2,4,Python,Mobile,1,Blockchain,SQL,Medium,5
-"As a Trainer, I want to create workout plans...",3,4,2,3,2,Java,Mobile,1,AI,Firebase,Medium,5
-"As an Admin, I want to manage user subscriptions...",2,1,1,4,3,Python,Mobile,0,AI,Firebase,Low,1
-"As a Buyer, I want to search for properties by location...",4,2,3,1,4,Java,Mobile,0,None,SQL,Low,3
-"As a Seller, I want to list my property...",2,1,2,2,3,Java,Mobile,1,None,Firebase,Low,3
-"As an Agent, I want to schedule property viewings...",4,4,2,3,5,Java,Mobile,1,Blockchain,SQL,Medium,8
-"As an Admin, I want to manage property listings...",2,4,2,4,4,Java,Mobile,0,Computer Vision,None,Medium,5
-"As a Job Seeker, I want to upload my resume...",2,1,1,1,5,Java,Mobile,1,Blockchain,Firebase,Low,2
-"As an Employer, I want to post job openings...",3,4,1,2,5,Java,Mobile,0,AI,SQL,Low,3
-"As an Admin, I want to manage job categories...",4,4,2,3,2,Java,Mobile,0,AI,SQL,Low,3
-"As a Recruiter, I want to search for candidates...",4,3,4,4,4,Java,Mobile,1,AI,Firebase,Medium,8
-"As a User, I want to create a profile...",4,1,1,1,5,Java,Mobile,0,AI,Firebase,Low,2
-"As a User, I want to post updates…",3,2,4,2,3,Java,Mobile,1,Blockchain,SQL,Low,8
-"As an Admin, I want to manage user accounts...",2,3,4,3,4,Java,Mobile,1,None,SQL,Low,5
-"As a Moderator, I want to review reported content...",2,2,2,4,5,Java,Mobile,0,AI,SQL,Medium,5
-"As a Customer, I want to check my account balance...",4,3,1,1,4,C#,Web,1,Computer Vision,None,Low,3
-"As a Customer, I want to transfer funds...",3,1,3,2,4,C#,Web,0,Blockchain,Firebase,Low,5
-"As an Admin, I want to manage user accounts...",4,3,2,3,5,C#,Web,0,None,SQL,Low,2
-"As a Bank Manager, I want to generate financial reports...",2,1,3,4,4,C#,Web,0,Computer Vision,SQL,High,5
-"As a User, I want to search for books...",3,4,1,1,3,C#,Web,0,Blockchain,Firebase,Low,2
-"As a Librarian, I want to manage book inventory...",4,3,3,2,3,HTML,Web,1,None,SQL,Low,5
-"As an Admin, I want to manage user accounts...",4,4,3,3,4,HTML,Web,1,Computer Vision,Firebase,Low,8
-"As a Student, I want to borrow books...",4,2,3,4,4,C#,Web,0,Computer Vision,Firebase,Low,5
-"As a User, I want to browse songs...",3,3,3,1,4,Python,Web,0,Blockchain,Firebase,Low,5
-"As an Artist, I want to upload my music...",4,4,4,2,5,Python,Web,0,Blockchain,Firebase,Medium,13
-"As an Admin, I want to manage music categories...",2,2,2,3,3,Python,Web,0,Computer Vision,Firebase,Low,3
-"As a User, I want to create playlists...",3,3,3,4,4,Python,Web,0,Blockchain,Firebase,Medium,5
+User Story,Teammembers,Size,Complexity,Priority,Noftasks,PL,developmenttype,platform,externalhardware,relatedtechnologies,dbms,Requirement Volatility,Effort 
+"As a Voter, I want to cast my vote online, so that I can participate in elections.",4,4,3,1,5,Java,Mobile,Android Studio,0,Blockchain,SQL,Medium,5
+"As an Admin, I want to manage candidate profiles, so that I can organize the election.",3,3,2,2,4,Java,Mobile,Android Studio,0,Blockchain,SQL,Low,3
+"As a Moderator, I want to verify voter identities, so that I can ensure fair elections.",3,2,4,3,3,Java,Mobile,Android Studio,0,Computer Vision,SQL,High,5
+"As a Candidate, I want to view election results, so that I can see how I performed.",2,1,1,4,2,Java,Mobile,Android Studio,0,Blockchain,SQL,Low,1
+"As a Donor, I want to browse fundraising campaigns, so that I can contribute to causes I care about.",3,3,2,1,4,Python,Web,Python,0,Computer Vision,Firebase,Low,3
+"As a Campaign Creator, I want to create a fundraising campaign, so that I can raise funds for my project.",3,4,3,2,5,Python,Web,Python,0,None,Firebase,Medium,3
+"As an Admin, I want to manage campaigns, so that I can ensure compliance with platform rules.",3,3,4,3,4,Python,Web,Python,0,None,Firebase,High,5
+"As a Donor, I want to track my donations, so that I can see how my contributions are being used.",3,2,2,4,3,Python,Web,Python,0,None,Firebase,Low,2
+"As a funding body, I want to be reassured that researchers I fund have robust archival plans for their data, so that I can be sure that funding them is a worthwhile investment.",3,3,3,1,4,Python,Web,Python,0,None,SQL,Medium,3
+"As a data reuser, I want to view an example citation for a dataset, so that I can reference it correctly.",2,2,2,2,3,Python,Web,Python,0,None,SQL,Low,2
+"As a collection curator, I want to set a date after which data will expire and be deleted or hidden, so that outdated or sensitive data is properly managed.",3,3,4,3,4,Python,Web,Python,0,None,SQL,Medium,5
+"As a repository manager, I want to track who is financially responsible for each item in the repository, so that billing and ownership accountability can be maintained.",3,4,3,4,5,Python,Web,Python,0,None,SQL,Medium,5
+"As a Digital Records Archivist, I want to batch ingest ETDs received from ProQuest, so that large-scale electronic theses and dissertations can be efficiently added to the repository.",4,5,5,5,6,Python,Web,Python,0,None,SQL,High,13
+"As a collection curator, I want to move items from one collection to another, so that items can be reassigned to the most appropriate collection.",3,3,3,6,4,Python,Web,Python,0,None,SQL,Low,3
+"As a repository admin, I want to expose repository contents via OAI-PMH, so that metadata can be harvested by external services.",3,4,4,7,5,Python,Web,Python,0,None,SQL,Medium,8
+"As a depositor, I want to get feedback post-ingest if files do not conform to format specifications, so that I can correct any issues before finalizing the submission.",3,3,3,8,4,Python,Web,Python,0,None,SQL,Medium,3
+"As a faculty member, I want to manage members of my classes in the repository dashboard, so that I can grant submission permissions and track student submissions easily.",3,4,3,9,5,Python,Web,Python,0,None,SQL,Medium,3
+"As a Digital Records Archivist, I want to edit the length of embargoes, so that restricted items can be made available at the appropriate time.",3,3,4,10,4,Python,Web,Python,0,None,SQL,Low,5
+"As a collection curator, I want to restrict access to my collection or items to Duke IP addresses, so that only authorized users can access certain materials.",3,3,4,11,4,Python,Web,Python,0,None,SQL,Low,5
+"As a superuser, I want to enter and exit the superuser scope, so that I can perform administrative actions without being permanently in an elevated role.",2,2,2,12,3,Python,Web,Python,0,None,SQL,Low,2
+"As a Cornell faculty member, I want to upload data to the repository and associate it with a publication, so that I receive attribution for my data as well as my publications.",3,4,3,13,5,Python,Web,Python,0,None,SQL,Medium,3
+"As a developer, I want to have the subdomain beta.nsf.gov set up, so that I can deploy a beta site to it.",2,3,3,1,3,Python,Web,Python,0,None,Firebase,Low,3
+"As a user researcher, I want to test the user research plan, so that I ensure the in-person interviews are effective and capturing the right information.",2,2,2,2,3,Python,Web,Python,0,None,Firebase,Medium,2
+"As a designer, I want to create a mood board to aid with visual design concepts for the nsf.gov website, so that we can discuss different design ideas with stakeholders.",2,2,1,3,2,Python,Web,Python,0,None,Firebase,Medium,1
+"As a team member, I want to understand how work moves between UX/content, visual design, and front-end development for a sprint cycle, so that we can plan our workflow efficiently.",3,3,2,4,4,Python,Web,Python,0,None,Firebase,Low,3
+"As an NSF employee, I want to narrow down CMS options and identify key considerations, so that we can make an informed decision on a content management system.",3,4,3,5,5,Python,Web,Python,0,None,Firebase,High,5
+"As a workshop attendee, I want to see a summary of major findings from the event, so that I can understand the key takeaways and next steps.",3,2,2,6,3,Python,Web,Python,0,None,Firebase,Low,2
+"As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is the right fit for my needs.",3,3,3,7,4,Python,Web,Python,0,None,Firebase,Medium,3
+"As a site administrator, I want to understand how other similar organizations handle content, so that I can make informed decisions about what works well.",3,4,3,8,5,Python,Web,Python,0,None,Firebase,High,5
+"As a Public User, I want to search for information, so that I can obtain publicly available details concerning properties, county services, and processes.",3,3,2,1,4,HTML,Web,.NET,0,None,SQL,Medium,3
+"As an Applicant, I want to check the status of a transaction, so that I can understand where my service request is in the process, including fees, plan reviews, permits, or inspections.",3,3,3,2,4,HTML,Web,.NET,0,None,SQL,Medium,3
+"As a Staff Member, I want to apply a hold on an application, so that I can prevent progression through the workflow until the issue is resolved.",3,2,3,3,3,Python,Web,Python,0,None,SQL,Low,2
+"As a Planning Staff Member, I want to generate planning-related reports, so that I can access, analyze, and export the needed information in my requested format.",3,4,4,4,5,Python,Web,Python,0,None,SQL,High,8
+"As a Zoning Staff Member, I want to issue zoning-related permits, so that I can satisfy an applicant's request for a service that complies with the Zoning Ordinance.",3,3,3,5,4,Python,Web,Python,0,None,SQL,Medium,3
+"As a Plan Review Staff Member, I want to track the completion of required plan reviews, so that I can ensure all tasks are completed, results are sent to the applicant, and downstream steps are initiated.",3,4,4,6,5,Python,Web,Python,0,None,SQL,Medium,8
+"As a Development Staff Member, I want to issue a development-related permit, so that I can grant the applicant permission to begin work.",3,3,3,7,4,Python,Web,Python,0,None,SQL,Medium,3
+"As an Inspection Supervisor, I want to manage inspector workloads, so that I can meet service level and quality requirements.",3,4,4,8,5,Python,Web,Python,0,None,SQL,Medium,8
+"As an Enforcement Staff Member, I want to issue a notice of violation, so that I can provide formal communication to the responsible party.",3,3,3,9,4,Python,Web,Python,0,None,SQL,Low,3
+"As a Technical Staff Member, I want to update the GIS property management system, so that I can ensure accurate parcel data is maintained after property splits or merges.",4,5,5,10,6,Python,Web,Python,0,location,SQL,Medium,13
+"As a site member, I want to describe myself on my own page in a semi-structured way, so that others can learn about me.",2,2,2,1,3,Python,Web,Python,0,None,SQL,Low,2
+"As a site member, I want to fill out an application to become a Certified Scrum Practitioner, so that I can earn that designation.",3,3,3,2,4,Python,Web,Python,0,None,SQL,Low,3
+"As a Trainer, I want to include additional details in my profile page about me, so that others can learn about me and decide if I am the right trainer for them.",2,2,2,3,3,Python,Web,Python,0,None,SQL,Medium,2
+"As a trainer, I want to list my upcoming classes in my profile and include a link to a detailed page about each, so that prospective attendees can find my courses.",3,3,3,4,4,Python,Web,Python,0,None,SQL,Medium,3
+"As a site member, I want to search for profiles based on a few fields, so that I can find others I might want to connect with.",3,3,3,5,4,Python,Web,Python,0,None,SQL,Medium,3
+"As a site member, I want to mark my email address as private even if the rest of my profile is not, so that no one can contact me without my permission.",2,2,2,6,3,Python,Web,Python,0,None,SQL,Low,2
+"As a site editor, I want to set the following dates on a news item: Start Publishing Date, Old News Date, Stop Publishing Date, so that articles are published on and through appropriate dates.",3,3,4,7,4,Python,Web,Python,0,None,SQL,Low,5
+"As a trainer, I want to create a new course or event, so that site visitors can see it and register.",3,4,4,8,5,Python,Web,Python,0,None,SQL,Medium,8
+"As a recruiter, I want to post a help-wanted ad, so that I can attract candidates.",3,3,3,9,4,Python,Web,Python,0,None,SQL,Low,3
+"As a site member, I want to have full access to all articles, so that there is a benefit to being a member.",2,2,2,10,3,Python,Web,Python,0,None,SQL,Low,2
+"As a site visitor, I want to see a trainer's rating, so that I can choose a course from an appropriate trainer.",3,3,3,11,4,Python,Web,Python,0,None,SQL,Medium,3
+"As a member, I want to receive a reminder and a link, so that I can renew my membership on time.",2,2,2,12,3,Python,Web,Python,0,None,SQL,Low,2
+"As a Publisher, I want to publish a dataset, so that I can share it publicly with everyone.",2,2,2,1,2,Python,Web,Python,0,None,None,Low,2
+"As a Publisher, I want to import my data package into the registry, so that my data has a permanent online home.",3,3,3,2,3,C#,Web,.NET,0,Blockchain,SQL,Medium,5
+"As a Consumer, I want to know that the data I am downloading is reliable, so that I don't have to check it manually.",2,2,1,3,2,Python,Web,Python,0,None,None,Medium,1
+"As a Consumer, I want to search for data packages based on descriptions, so that I can find relevant ones.",3,4,4,4,4,C#,Web,.NET,0,AI,SQL,High,8
+"As a Data Analyst, I want to update previously downloaded data packages, so that I can work with recent data.",2,3,3,5,3,Python,Web,Python,0,AI,SQL,Medium,5
+"As a Developer, I want to use a data package as a Node.js library, so that I can integrate it with my project.",2,3,3,6,3,Javascript,Web,Node.js,0,Blockchain,None,Medium,5
+"As a Data Publishing User, I want to edit a dataset I have published, so that I can correct or enhance data.",2,1,1,7,1,Python,Web,Python,0,None,None,Low,1
+"As a Platform Administrator, I want to view all datasets published by users, so that I can manage them.",3,4,3,8,4,C#,Web,.NET,0,Blockchain,SQL,Low,5
+"As a Data Consuming User, I want to filter, sort, and aggregate data by dimensions, so that I can analyze trends.",3,5,5,9,5,Python,Web,Python,0,AI,SQL,High,13
+"As an API User, I want to dynamically request polygons based on queries, so that I can provide matching maps.",2,3,3,10,3,Python,Web,Python,0,Location,None,Medium,5
+"As a Data Publishing User, I want to import data from Google Sheets, so that I avoid manual conversions.",2,3,3,11,3,Python,Web,Google Colab,0,None,None,Medium,3
+"As an API User, I want to normalize measures by GDP, so that I can analyze economic context.",2,2,2,12,2,Python,Web,Python,0,AI,SQL,High,5
+"As a Data Consuming User, I want to download an image of a view state, so that I can use it offline.",2,2,2,13,2,Python,Web,Python,0,Computer Vision,None,Low,3
+"As a Data Publishing User, I want to validate my CSV file before publishing, so that I can fix issues early.",2,2,2,14,2,Python,Web,Python,0,None,None,Low,2
+"As a Visitor, I want to sign up via GitHub or Google, so that I avoid manual registration.",2,3,3,1,3,Python,Web,Python,0,Blockchain,SQL,Low,5
+"As an Admin, I want to invite someone to join the platform, so that they can contribute.",2,3,2,2,2,Python,Web,Python,0,None,None,Low,2
+"As an Owner, I want to remove a user from my publisher, so that they lose edit permissions.",2,2,2,3,3,Python,Web,Python,0,None,None,Low,2
+"As an Application Administrator, I want to reset a user's password, so that they regain account access.",2,2,2,4,2,Python,Web,Python,0,None,None,Low,2
+"As a User, I want to authenticate using LDAP, so that I log in with my org credentials.",2,3,3,5,3,Python,Web,Python,0,None,SQL,Medium,3
+"As an Authenticated User, I want to access contextual help links, so that I find guidance quickly.",2,2,2,6,2,Python,Web,Python,0,Gamification,None,Low,3
+"As an Admin, I want to see platform usage metrics (users, API calls, downloads), so that I monitor performance.",3,4,3,7,4,Python,Web,Python,0,AI,SQL,Medium,5
+"As a Repository Manager, I want to manage archival descriptions, so that records stay organized.",2,3,3,1,3,Python,Database,Python,0,None,None,Medium,3
+"As an Archivist, I want to import Accessions data in CSV, so that I add bulk records efficiently.",2,3,2,2,2,Python,Database,Python,0,None,None,Low,2
+"As an Archivist, I want to edit Rights Management statements, so that I track intellectual property.",2,3,3,3,3,Python,Database,Python,0,Blockchain,SQL,Medium,5
+"As a Systems Administrator, I want to control the demo database location, so that I ensure backups.",2,3,3,4,3,Python,Database,Python,0,None,SQL,Low,3
+"As an Archivist, I want to assign location info to containers, so that I track physical storage.",2,1,2,5,2,Python,Database,Python,0,Location,None,Low,2
+"As a Digital Records Archivist, I want to batch ingest ETDs from ProQuest, so that I add theses at scale.",3,4,4,6,4,Python,Database,Python,0,AI,SQL,High,8
+"As a Collection Curator, I want to move items between collections, so that they are reassigned properly.",2,3,3,7,3,Python,Database,Python,0,None,None,Low,3
+"As a Repository Admin, I want to expose contents via OAI-PMH, so that metadata is harvestable.",2,3,3,8,3,Python,Database,Python,0,Blockchain,SQL,Medium,3
+"As a Depositor, I want feedback on non-compliant files post-ingest, so that I can fix issues.",2,3,3,9,3,Python,Database,Python,0,None,None,Medium,3
+"As a Faculty Member, I want to manage class members in the repository, so that I control submissions.",2,2,2,10,2,Python,Database,Python,0,None,SQL,Low,2
+"As an Anonymous User, I want to sign up for the BADCamp newsletter, so that I stay updated.",2,3,2,1,2,C#,Desktop,.Net,0,Gamification,None,Low,3
+"As a Sponsor, I want to link BADCamp attendees to my page, so that I showcase attendance.",2,2,1,2,1,C#,Desktop,.Net,0,Gamification,None,Low,1
+"As an Administrator, I want to assign sponsors to events, so that they are featured on sponsor pages.",2,3,3,3,3,C#,Desktop,.Net,0,Blockchain,None,Low,5
+"As a Summit Coordinator, I want to list sponsors for my summit, so that they feel rewarded.",2,2,1,4,2,C#,Desktop,.Net,0,Gamification,None,Low,2
+"As an Authenticated User, I want to edit my session, so that I correct mistakes.",2,3,2,5,1,C#,Desktop,.Net,0,Gamification,None,Low,2
+"As an OlderPerson, I want a wake-up call from ALFRED checking if I'm okay, so that I feel safe.",2,3,3,1,3,Swift,Mobile,iOS,1,Voice Recognition,Firebase,Medium,8
+"As an OlderPerson, I want to use ALFRED for navigation, so that I move independently.",2,4,5,2,4,Swift,Mobile,iOS,1,Location,Firebase,High,13
+"As an OlderPerson, I want medicine reminders from ALFRED, so that I don't forget doses.",2,3,3,3,3,Swift,Mobile,iOS,1,Voice Recognition,Firebase,Medium,8
+"As an OlderPerson, I want ALFRED to detect falls and send alerts, so that I get help fast.",3,5,5,4,5,Swift,Mobile,iOS,1,Computer Vision,Firebase,High,21
+"As a Medical Caregiver, I want to check if patients took medicine, so that I ensure adherence.",2,3,3,5,3,Python,Web,Python,0,AI,SQL,Medium,3
+"As a Researcher, I want to view a finding aid for a collection, so that I understand its contents.",2,3,3,1,3,Python,Web,Python,0,None,None,Low,3
+"As a Researcher, I want updates when new works are published, so that I stay informed.",2,2,2,2,3,Python,Web,Python,0,None,SQL,Low,2
+"As a Researcher, I want to specify data storage locations, so that it remains accessible long-term.",2,3,2,3,3,Python,Web,Python,0,None,None,Medium,2
+"As a PI, I want to record Data Management Plan details, so that Ethics Committees can review compliance.",2,3,2,4,2,Python,Web,Python,0,None,SQL,Medium,2
+"As a Camp Administrator, I want to schedule camper activities, so that workers track locations.",2,3,2,5,4,Python,Web,Python,0,None,None,Medium,2
+"As a Parent, I want to track my child's camp schedule, so that I have peace of mind.",2,2,3,1,2,Python,Web,Python,0,Location,Firebase,Medium,3
+"As a Camp Worker, I want to report supply shortages, so that managers can restock.",2,4,2,2,2,Python,Web,Python,0,None,None,Low,3
+"As a Camp Administrator, I want to give bi-weekly feedback to parents, so that they know child progress.",2,2,1,3,2,Python,Web,Python,0,None,None,Medium,1
+"As a User, I want to find nearby recycling facilities by zip code, so that I dispose waste responsibly.",2,3,3,1,4,Python,Web,Python,0,Location,None,Low,3
+"As a User, I want to see a map of public recycling bins, so that I locate them easily.",2,5,3,2,5,Python,Web,Python,0,Location,None,Medium,5
+"As a User, I want to upload my weekly schedule, so that I get recycling center recommendations.",2,2,1,3,1,Python,Web,Google Colab,0,None,None,High,1
+"As a User, I want to browse eco-friendly facilities, so that I ensure responsible waste disposal.",2,3,2,4,3,Python,Web,Python,0,None,None,Low,2
+"As a Data Analyst, I want to visualize data trends over time...",4,2,1,1,3,C#,Desktop,.NET,0,None,Firebase,Medium,1
+"As a Data Scientist, I want to integrate machine learning models...",4,4,2,2,2,C#,Desktop,.NET,1,AI,None,High,3
+"As a Data Engineer, I want to automate data pipeline workflows...",4,4,2,3,3,C#,Desktop,.NET,0,None,SQL,Medium,3
+"As a Customer, I want to filter products by price range...",2,3,4,1,4,Java,Mobile,Android Studio,1,Blockchain,Firebase,Medium,8
+"As a Customer, I want to add items to my wishlist...",3,1,1,2,5,Java,Mobile,Android Studio,0,AI,Firebase,Low,2
+"As a Seller, I want to upload product images and descriptions...",4,1,2,3,3,Java,Mobile,Android Studio,0,None,None,Low,2
+"As an Admin, I want to manage product categories...",3,1,3,4,3,Java,Mobile,Android Studio,1,AI,None,Low,5
+"As a Student, I want to enroll in courses...",4,1,2,1,3,Java,Mobile,Android Studio,1,AI,None,Low,3
+"As a Student, I want to track my progress in a course...",2,2,3,2,5,Java,Mobile,Android Studio,0,None,SQL,Low,3
+"As an Instructor, I want to upload course materials...",4,4,3,3,3,Java,Mobile,Android Studio,0,None,SQL,Medium,3
+"As an Admin, I want to manage user roles and permissions...",3,4,3,4,5,Java,Mobile,Android Studio,0,AI,None,Medium,8
+"As a Doctor, I want to view patient medical history...",2,4,3,1,2,Java,Mobile,Android Studio,1,None,None,Low,5
+"As a Patient, I want to book appointments online...",2,4,1,2,3,Java,Mobile,Android Studio,1,AI,SQL,Low,3
+"As a Nurse, I want to update patient records...",3,3,3,3,3,Java,Mobile,Android Studio,0,Blockchain,Firebase,Low,5
+"As an Admin, I want to generate reports on hospital performance...",2,4,1,4,3,Java,Mobile,Android Studio,1,Computer Vision,SQL,High,5
+"As a Traveler, I want to search for flights and hotels...",2,3,2,1,4,C#,Web,.NET,1,Blockchain,SQL,Medium,5
+"As a Traveler, I want to read reviews of destinations...",2,1,4,2,3,C#,Web,.NET,0,AI,SQL,Low,5
+"As a Travel Agent, I want to create custom travel packages...",3,4,3,3,3,C#,Web,.Net,1,Computer Vision,None,High,8
+"As an Admin, I want to manage destination listings...",3,2,4,4,5,C#,Web,.NET,1,None,Firebase,Medium,5
+"As an Event Organizer, I want to create event pages...",2,2,3,1,4,Java,Mobile,Android Studio,0,None,Firebase,Medium,3
+"As an Attendee, I want to register for events...",3,2,3,2,4,Java,Mobile,Android Studio,1,None,None,Low,3
+"As an Admin, I want to manage event categories...",3,2,1,3,5,Java,Mobile,Android Studio,1,AI,SQL,Low,3
+"As a Speaker, I want to upload my presentation materials...",2,1,3,4,4,Java,Mobile,Android Studio,0,None,SQL,Low,3
+"As a Customer, I want to browse restaurants and menus...",3,2,2,1,3,C#,Web,.NET,0,Blockchain,Firebase,Low,3
+"As a Restaurant Owner, I want to update my menu...",4,1,3,2,5,C#,Web,.NET,0,Blockchain,Firebase,Medium,5
+"As a Delivery Driver, I want to view delivery routes...",2,3,4,3,2,C#,Web,.NET,0,None,SQL,Medium,5
+"As an Admin, I want to track order statuses...",2,3,3,4,3,C#,Web,.NET,0,AI,SQL,Low,5
+"As a User, I want to log my daily workouts...",3,4,3,1,3,Java,Mobile,Android Studio,1,Blockchain,SQL,Low,8
+"As a User, I want to set fitness goals...",3,2,2,2,4,Python,Mobile,Python,1,Blockchain,SQL,Medium,5
+"As a Trainer, I want to create workout plans...",3,4,2,3,2,Java,Mobile,Android Studio,1,AI,Firebase,Medium,5
+"As an Admin, I want to manage user subscriptions...",2,1,1,4,3,Python,Mobile,Python,0,AI,Firebase,Low,1
+"As a Buyer, I want to search for properties by location...",4,2,3,1,4,Java,Mobile,Android Studio,0,None,SQL,Low,3
+"As a Seller, I want to list my property...",2,1,2,2,3,Java,Mobile,Android Studio,1,None,Firebase,Low,3
+"As an Agent, I want to schedule property viewings...",4,4,2,3,5,Java,Mobile,Android Studio,1,Blockchain,SQL,Medium,8
+"As an Admin, I want to manage property listings...",2,4,2,4,4,Java,Mobile,Android Studio,0,Computer Vision,None,Medium,5
+"As a Job Seeker, I want to upload my resume...",2,1,1,1,5,Java,Mobile,Android Studio,1,Blockchain,Firebase,Low,2
+"As an Employer, I want to post job openings...",3,4,1,2,5,Java,Mobile,Android Studio,0,AI,SQL,Low,3
+"As an Admin, I want to manage job categories...",4,4,2,3,2,Java,Mobile,Android Studio,0,AI,SQL,Low,3
+"As a Recruiter, I want to search for candidates...",4,3,4,4,4,Java,Mobile,Android Studio,1,AI,Firebase,Medium,8
+"As a User, I want to create a profile...",4,1,1,1,5,Java,Mobile,Android Studio,0,AI,Firebase,Low,2
+"As a User, I want to post updates…",3,2,4,2,3,Java,Mobile,Android Studio,1,Blockchain,SQL,Low,8
+"As an Admin, I want to manage user accounts...",2,3,4,3,4,Java,Mobile,Android Studio,1,None,SQL,Low,5
+"As a Moderator, I want to review reported content...",2,2,2,4,5,Java,Mobile,Android Studio,0,AI,SQL,Medium,5
+"As a Customer, I want to check my account balance...",4,3,1,1,4,C#,Web,.Net,1,Computer Vision,None,Low,3
+"As a Customer, I want to transfer funds...",3,1,3,2,4,C#,Web,.Net,0,Blockchain,Firebase,Low,5
+"As an Admin, I want to manage user accounts...",4,3,2,3,5,C#,Web,.Net,0,None,SQL,Low,2
+"As a Bank Manager, I want to generate financial reports...",2,1,3,4,4,C#,Web,.Net,0,Computer Vision,SQL,High,5
+"As a User, I want to search for books...",3,4,1,1,3,C#,Web,.NET,0,Blockchain,Firebase,Low,2
+"As a Librarian, I want to manage book inventory...",4,3,3,2,3,HTML,Web,.NET,1,None,SQL,Low,5
+"As an Admin, I want to manage user accounts...",4,4,3,3,4,HTML,Web,.NET,1,Computer Vision,Firebase,Low,8
+"As a Student, I want to borrow books...",4,2,3,4,4,C#,Web,.NET,0,Computer Vision,Firebase,Low,5
+"As a User, I want to browse songs...",3,3,3,1,4,Python,Web,Python,0,Blockchain,Firebase,Low,5
+"As an Artist, I want to upload my music...",4,4,4,2,5,Python,Web,Python,0,Blockchain,Firebase,Medium,13
+"As an Admin, I want to manage music categories...",2,2,2,3,3,Python,Web,Python,0,Computer Vision,Firebase,Low,3
+"As a User, I want to create playlists...",3,3,3,4,4,Python,Web,Python,0,Blockchain,Firebase,Medium,5
